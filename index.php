@@ -4,7 +4,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link rel="StyleSheet" href= "css/index_css.css?v=0.0.2" />
-     <title>POST</title>
+     <title>Login</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <link rel="shortcut icon" href="Imagenes/Blockbuster_logo.svg.png" />
      <meta charset="UTF-8">
@@ -79,11 +79,6 @@
         </script>
 </head>
 <body>
-    <div id="logo_location">
-        <div id="logo_inner">
-             <!--<img src="Imagenes/yosi.png" id="image_logo"> -->
-        </div>
-    </div>
     <div id="container">
         <!-- Inicio primer container-->
         <div id="main">
@@ -105,9 +100,9 @@
                         </a> -->
                        <center> 
 
-                            <button type="submit" class="col-5  text-center btn btn-outline-primary">
+                            <a href="pages/admin.php" type="submit" class="col-5  text-center btn btn-outline-primary">
                                 Iniciar Sesion
-                            </button>
+                            </a>
                         </center>
                     </div>
                 </div>
