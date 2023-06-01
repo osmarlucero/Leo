@@ -53,6 +53,7 @@ body{
 }
 .list_form li img{
     max-width: 100%;
+    border: 1px solid black;
 }
 .list_form li p{
     background-color: #1c6c94;
