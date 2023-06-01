@@ -4,10 +4,10 @@
                 <li class="drop_menu">Animales
                     <ul>
                         <li><a href="new_animal.php">Nuevo</a></li>
-                        <li>Disponibles</li>
+                        <li><a href="aviable_anima.php">Disponibles</a></li>
                     </ul>
                 </li>
-                <li>Control de vacunas</li>
+                <li><a href="aviable_vac.php">Control de vacunas</a></li>
                 <li class="drop_menu">Adopciones
                     <ul>
                         <li>Nueva</li>
