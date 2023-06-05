@@ -39,21 +39,21 @@
             <div class="square">
                   <h4>  Nuevo Ingreso</h4>
                 <div class="square_inner">
-                    <form>
-                    <ul id="list_form">
-                        <li><input type="text" name="name" placeholder="Nombre"></li>
-                        <li><input type="text" name="type" placeholder="Tipo De Animal"></li>
-                        <li><input type="text" name="age" placeholder="Edad"></li>
-                        <li><input type="text" name="place_found" placeholder="Lugar Encontrado"></li>
-                        <li><textarea type="text" name="vaccine" placeholder="Vacunas"></textarea></li>
-                        <li>Imagen Del Animal <input type="file" name="imageCover" required="" placeholder="Imagen Pelicula" accept="image/*"> </li>
-                        <li>
-                             <button type="submit" class="style_form font_style_reverse"> 
-                        Dar De Alta</button>
-                        </li>
+                    <form action="../app/dogController.php" method="POST" enctype="multipart/form-data" >
+                        <ul id="list_form">
+                            <li><input type="text" name="name" placeholder="Nombre"></li>
+                            <li><input type="text" name="type" placeholder="Tipo De Animal"></li>
+                            <li><input type="text" name="age" placeholder="Edad"></li>
+                            <li><input type="text" name="place_found" placeholder="Lugar Encontrado"></li>
+                            <li><textarea type="text" name="vaccine" placeholder="Vacunas"></textarea></li>
+                            <li>Imagen Del Animal <input type="file" name="imageCover" required="" placeholder="Imagen Pelicula" accept="image/*"> </li>
+                            <li>
+                                 <button type="submit" class="style_form font_style_reverse"> 
+                            Dar De Alta</button>
+                            </li>
 
-                    </ul>
-                        <input type="hidden" name="action" value="store">
+                        </ul>
+                        <input type="hidden" name="action" value="storeAnimal">
                     </form>
                 </div>
             </div>
